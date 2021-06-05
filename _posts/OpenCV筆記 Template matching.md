@@ -1,6 +1,11 @@
-# OpenCV筆記 Template matching
-
-##### tag: `網誌` `OpenCV` `2021/6`
+---
+title: "OpenCV筆記 Template matching"
+date: 2021-06-5T04:17:30
+categories:
+  - 筆記
+tags:
+  - OpenCV
+---
 
 
  
@@ -81,3 +86,6 @@ for pt in zip(*loc[::-1]):
 
 在一些簡單的template圖像蠻好用的，速度又快，但是只要形狀稍稍改變或是大小有縮放就找不太到。
 所以如果是ㄧ些複雜的圖形就別試這個了，快去裝YOLO環境，開始標資料比較實在。
+
+
+
