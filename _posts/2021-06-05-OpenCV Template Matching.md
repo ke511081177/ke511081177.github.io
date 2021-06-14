@@ -21,7 +21,7 @@ tags:
     2. 要匹配的物件小圖  **(template)**
 
 將**img**和**template**轉成灰階
-```
+```python
 img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 template = cv2.imread('../template.png', 0)
 ```
@@ -51,7 +51,7 @@ template = cv2.imread('../template.png', 0)
 
 - 基本匹配
 
-```
+```python
 img = cv2.imread("img.png",cv2.IMREAD_UNCHANGED)
 img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 template = cv2.imread('../bonus_reward.png', 0)
@@ -67,7 +67,7 @@ cv2.rectangle(frame,top_left, bottom_right,(0, 0, 255), 2)         ## 畫出匹�
 
 - 匹配(設相似度閥值)
 
-```
+```python
 img = cv2.imread("img.png",cv2.IMREAD_UNCHANGED)
 img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 template = cv2.imread('../bonus_reward.png', 0)
