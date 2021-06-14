@@ -19,13 +19,17 @@ tags:
 ## 步驟
 
 1. 把照片轉成灰階
-    `gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)`
+    `python
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    `
 
 2. 找輪廓
-     `contours,_ = cv2.findContours(gray.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)`
+     `python
+     contours,_ = cv2.findContours(gray.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+     `
  
 3. 看需求: 要找位置或是框出來的話可以這樣
-```
+```python
 for c in contours:
             
     x,y,w,h=cv2.boundingRect(c)
@@ -66,7 +70,7 @@ cv2.findContours(1.灰階圖片, 2.要取得怎麼樣的輪廓, 3.回傳的輪�
 ## 範例
 
 - 前面的彙整
-```
+```python
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     contours,_ = cv2.findContours(gray.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
