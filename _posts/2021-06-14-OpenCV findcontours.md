@@ -19,14 +19,14 @@ tags:
 ## 步驟
 
 1. 把照片轉成灰階
-    `python
+    ```python
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    `
+    ```
 
 2. 找輪廓
-     `python
+     ```python
      contours,_ = cv2.findContours(gray.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-     `
+     ```
  
 3. 看需求: 要找位置或是框出來的話可以這樣
 ```python
