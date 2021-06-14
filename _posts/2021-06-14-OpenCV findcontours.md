@@ -1,5 +1,5 @@
 ---
-title: "OpenCV筆記 我本你可以: Contour Searching"
+title: "OpenCV筆記 我本以為你可以: Contour Searching"
 date: 2021-06-14T19:20:30
 categories:
   - 筆記
