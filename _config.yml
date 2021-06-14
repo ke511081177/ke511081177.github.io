@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: '名字待定'
-email:'ke511081177@g.ncu.edu.tw'
+email:ke511081177@g.ncu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
   '有空就稍微寫點最近在幹甚麼'
 twitter_username: username
