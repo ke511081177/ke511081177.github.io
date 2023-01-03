@@ -76,3 +76,7 @@ print(value)  # 輸出：99
 ```
 
 但請注意，使用指標需要格外小心，因為指標可能會導致記憶體洩漏或其他問題。
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
