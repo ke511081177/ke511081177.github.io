@@ -1,4 +1,3 @@
-
 ---
 title: "如何在python中使用pointer(指標)"
 date: 2023-01-05T15:34:30-04:00
@@ -6,7 +5,6 @@ categories:
   - programming
 tags:
   - python
- 
 ---
 
 ## Python中的指標
