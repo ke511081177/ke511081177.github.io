@@ -1,6 +1,14 @@
-# 如何在python中使用pointer(指標)
-###### tags: `python`
-###### tags: `programming`
+
+---
+title: "如何在python中使用pointer(指標)"
+date: 2023-01-05T15:34:30-04:00
+categories:
+  - programming
+tags:
+  - python
+ 
+---
+
 ## Python中的指標
 
 在 Python 中，可以使用array來實現指標的功能，可以存儲多個值。
