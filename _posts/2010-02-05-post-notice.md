@@ -7,6 +7,13 @@ tags:
   - notice
 ---
 
+- Python中的指標
+
+在 Python 中，可以使用array來實現指標的功能，可以存儲多個值。
+
+與 C 語言中的指標不同，Python 中的列表是動態的，你可以在執行期間隨意增加或刪除元素。
+此外，Python 中的列表不需要手動分配記憶體，因為 Python 會自動管理記憶體。
+
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
 When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
