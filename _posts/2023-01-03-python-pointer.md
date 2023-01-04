@@ -13,7 +13,13 @@ tags:
 
 與 C 語言中的指標不同，Python 中的列表是動態的，你可以在執行期間隨意增加或刪除元素。
 此外，Python 中的列表不需要手動分配記憶體，因為 Python 會自動管理記憶體。
-
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
 ```python
 # 宣告一個列表並賦值
 numbers = [1, 2, 3, 4, 5]
