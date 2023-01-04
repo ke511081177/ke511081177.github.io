@@ -1,5 +1,5 @@
 ---
-title: "如何在python中使用pointer(指標)"
+title: "Hotel Maple Taiwan Boulevard"
 date: 2023-01-03T15:34:30-04:00
 categories:
   - programming
@@ -7,7 +7,7 @@ tags:
   - python
 ---
 
-## Python中的指標
+- Python中的指標
 
 在 Python 中，可以使用array來實現指標的功能，可以存儲多個值。
 
@@ -45,7 +45,7 @@ print(numbers)  # 輸出：[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 ```
 
-## Ctype pointer
+- Ctype pointer
 如果想在 Python 中使用真正的指標，可以使用 ctypes 模組。 ctypes 模組可以讓你在 Python 中使用 C 語言的指標。
 
 例如，你可以使用 ctypes 模組宣告一個整數指標：
