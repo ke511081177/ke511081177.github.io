@@ -33,7 +33,6 @@ print(numbers)  # 輸出：[1, 99, 3, 4, 5, 6]
 # 刪除列表的第三個元素
 del numbers[2]
 print(numbers)  # 輸出：[1, 99, 4, 5, 6]
-
 ```
 
 此外，Python 中還有另一種資料結構「清單推導式」，可以快速生成列表。例如：
@@ -42,7 +41,6 @@ print(numbers)  # 輸出：[1, 99, 4, 5, 6]
 # 生成一個 1 到 10 的數字列表
 numbers = [i for i in range(1, 11)]
 print(numbers)  # 輸出：[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
 ```
 
 ## Ctype pointer
@@ -50,7 +48,7 @@ print(numbers)  # 輸出：[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 例如，你可以使用 ctypes 模組宣告一個整數指標：
 
-```python
+```html
 from ctypes import c_int, POINTER
 
 # 宣告一個整數指標
